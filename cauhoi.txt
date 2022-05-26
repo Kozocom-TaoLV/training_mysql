@@ -1,0 +1,32 @@
+quanlynhansu
+Chỉ sử dụng 01 lệnh SQL trả lời các yêu cầu sau:
+1. Hiển thị thông tin của những nhân viên ở phòng số 5
+2. Hiển thị mã nhân viên, họ nhân viên, tên lót và tên nhân viên của những nhân viên ở phòng số 5 và có lương >= 3000
+3. Hiển thị mã nhân viên, tên nhân viên của những nhân viên có lương từ 2000 đến 8000
+4. Hiển thị thông tin của những nhân viên ở địa chỉ có tên đường là Nguyễn
+5. Cho biết số lượng nhân viên
+6. Cho biết số lượng nhân viên trong từng phòng ban
+7. Hiển thị thông tin về mã nhân viên, tên nhân viên và tên phòng ban ở phòng kế toán
+8 .Tìm thông tin của nhân viên làm từ 2 đề án trở lên.
+
+
+thuc tap
+Chỉ sử dụng 01 lệnh SQL trả lời các yêu cầu sau:
+1.Đưa ra thông tin gồm mã số, họ tênvà tên khoa của tất cả các giảng viên
+2.Đưa ra thông tin gồm mã số, họ tênvà tên khoa của các giảng viên của khoa ‘DIA LY va QLTN’
+3.Cho biết số sinh viên của khoa ‘CONG NGHE SINH HOC’
+4.Đưa ra danh sách gồm mã số, họ tênvà tuổi của các sinh viên khoa ‘TOAN’
+5.Cho biết số giảng viên của khoa ‘CONG NGHE SINH HOC’
+6.Cho biết thông tin về sinh viên không tham gia thực tập
+7.Đưa ra mã khoa, tên khoa và số giảng viên của mỗi khoa
+8.Cho biết số điện thoại của khoa mà sinh viên có tên ‘Le van son’ đang theo học
+9.Cho biết mã số và tên của các đề tài do giảng viên ‘Tran son’ hướng dẫn
+10.Cho biết tên đề tài không có sinh viên nào thực tập
+11.Cho biết mã số, họ tên, tên khoa của các giảng viên hướng dẫn từ 3 sinh viên trở lên.
+12.Cho biết mã số, tên đề tài của đề tài có kinh phí cao nhất
+13.Cho biết mã số và tên các đề tài có nhiều hơn 2 sinh viên tham gia thực tập
+14.Đưa ra mã số, họ tên và điểm của các sinh viên khoa ‘DIALY và QLTN’
+15.Đưa ra tên khoa, số lượng sinh viên của mỗi khoa
+16.Cho biết thông tin về các sinh viên thực tập tại quê nhà
+17.Hãy cho biết thông tin về những sinh viên chưa có điểm thực tập
+18.Đưa ra danh sách gồm mã số, họ tên các sinh viên có điểm thực tập bằng.

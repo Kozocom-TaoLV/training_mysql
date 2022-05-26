@@ -1,0 +1,113 @@
+Bài tập #1
+Question: Tạo Database với tên “Db_MySQL_CB” sau đó tạo các bảng dưới đây vào Database
+
+Table 1: Department
+DepartmentID: định danh của phòng ban
+DepartmentName: tên đầy đủ của phòng ban (VD: sale, marketing, …)
+
+Table 2: Position
+PositionID: định danh của chức vụ
+PositionName: tên chức vụ (Dev, Test, Scrum Master, PM)
+
+Table 3: Account
+AccountID: định danh của User (auto increment)
+Email:
+Username:
+FullName:
+DepartmentID: phòng ban của user trong hệ thống
+PositionID: chức vụ của User
+CreateDate: ngày tạo tài khoản
+
+Table 4: Group
+GroupID: định danh của nhóm
+GroupName: tên nhóm
+CreatorID: id của người tạo group
+CreateDate: ngày tạo group
+
+Table 5: GroupAccount
+GroupID: định danh của nhóm
+AccountID: định danh của User
+JoinDate: Ngày user tham gia vào nhóm
+
+Table 6: TypeQuestion
+TypeID: định danh của loại câu hỏi (auto increment)
+TypeName: tên của loại câu hỏi (Essay, Multiple-Choice)
+
+Table 7: CategoryQuestion
+CategoryID: định danh của chủ đề câu hỏi (auto increment)
+CategoryName: tên của chủ đề câu hỏi (Java, .NET, SQL, Postman, Ruby…)
+
+Table 8: Question
+QuestionID: định danh của câu hỏi (auto increment)
+Content: nội dung của câu hỏi
+CategoryID: định danh của chủ đề câu hỏi
+TypeID: định danh của loại câu hỏi
+CreatorID: id của người tạo câu hỏi
+CreateDate: ngày tạo câu hỏi
+
+
+Table 9: Answer
+AnswerID: định danh của câu trả lời (auto increment)
+Content: nội dung của câu trả lời
+QuestionID: định danh của câu hỏi
+isCorrect: câu trả lời này đúng hay sai
+
+Table 10: Exam
+ExamID: định danh của đề thi (auto increment)
+Code: mã đề thi
+Title: tiêu đề của đề thi
+CategoryID: định danh của chủ đề thi
+Duration: thời gian thi
+CreatorID: id của người tạo đề thi
+CreateDate: ngày tạo đề thi
+
+Table 11: ExamQuestion
+ExamID: định danh của đề thi
+QuestionID: định danh của câu hỏi
+
+
+Bài tập #3
+Question 1: Thêm ít nhất 10 record vào mỗi table
+Question 2: Lấy ra tất cả các phòng ban
+Question 3: Lấy ra id của phòng ban “Sale”
+Question 4: Lấy ra thông tin account có full name dài nhất
+Question 5: Lấy ra thông tin account có full name dài nhất và thuộc phòng ban có id= 3
+Question 6: Lấy ra tên group đã tham gia trước ngày 20/12/2019
+Question 7: Lấy ra ID của question có >= 4 câu trả lời
+Question 8: Lấy ra các mã đề thi có thời gian thi >= 60 phút và được tạo trước ngày
+Question 9: Lấy ra 5 group được tạo gần đây nhất
+Question 10: Đếm số nhân viên thuộc department có id = 2
+Question 11: Lấy ra nhân viên có tên bắt đầu bằng chữ “D” và kết thúc bằng chữ “o”
+Question 12: Xóa tất cả các exam được tạo trước ngày 20/12/2019
+Question 13: Xóa tất cả các Account có FullName bắt đầu bằng 2 từ “Nguyễn Hải”
+Question 14: Update thông tin của account có id = 5 thành tên “Nguyễn Quang Chiến” và email thành chienquang.nguyen@adcstudio.info
+
+Exercise 1: Join
+Question 1: Viết lệnh để lấy ra danh sách nhân viên và thông tin phòng ban của họ
+Question 2: Viết lệnh để lấy ra thông tin các account được tạo sau ngày 20/12/2010
+Question 3: Viết lệnh để lấy ra tất cả các developer
+Question 4: Viết lệnh để lấy ra danh sách các phòng ban có >3 nhân viên
+Question 5: Viết lệnh để lấy ra danh sách câu hỏi được sử dụng trong đề thi nhiều nhất
+Question 6: Thông kê mỗi category Questionđược sử dụng trong bao nhiêu Question
+Question 7: Thông kê mỗi Questionđược sử dụng trong bao nhiêu Exam
+Question 8: Lấy ra Questioncó nhiều câu trả lời nhất
+Question 9: Thống kê số lượng account trong mỗi group
+Question 10: Tìm chức vụ có ít người nhất
+Question 11: Thống kê mỗi phòng ban có bao nhiêu dev, test, scrum master, PM
+Question 12: Lấy thông tin chi tiết của câu hỏi bao gồm: thông tin cơ bản của question, loại câu hỏi, ai là người tạo ra câu hỏi, câu trả lời là gì, …
+Question 13: Lấy ra số lượng câu hỏi của mỗi loại tự luận hay trắc nghiệm
+Question 14: Lấy ra group không có account nào
+Question 15: Lấy ra group không có account nào
+Question 16: Lấy ra question không có answer nào
+
+Exercise 2: Union
+
+Question 17:
+a) Lấy các account thuộc nhóm thứ 1
+b) Lấy các account thuộc nhóm thứ 2
+c) Ghép 2 kết quả từ câu a) và câu b) sao cho không có record nào trùng nhau
+
+Question 18:
+a) Lấy các group có lớn hơn 5 thành viên
+b) Lấy các group có nhỏ hơn 7 thành viên
+c) Ghép 2 kết quả từ câu a) và câu b)
