@@ -3,7 +3,7 @@ departments(id, name, manager_id, location_id)
 job_history(id, start_date, end_date, job_id, department_id)
 countries(id,name,region_id)
 employees(id,first_name, last_name, email, phone, hire_date, job_id, salary, commission_pct, department_id)
-localtion(id, address, postal_code, city, country_id)
+location(id, address, postal_code, city, country_id)
 job(id, title, min_salary, max_salary)
 Example id: AD_PRES, IT_PROG, ST_MAN, ST_CLERK, SH_CLERK, AC_ACCOUNT...
 job_grades(level, lowest_sal, highest_sal)
